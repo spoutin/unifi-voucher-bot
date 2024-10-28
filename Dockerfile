@@ -12,4 +12,4 @@ WORKDIR /
 COPY --from=builder /unifi-voucher-slackbot /unifi-voucher-slackbot
 
 USER nonroot:nonroot
-ENTRYPOINT ["/wifi-voucher-bot"]
+ENTRYPOINT ["/unifi-voucher-slackbot"]
